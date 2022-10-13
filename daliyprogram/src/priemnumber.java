@@ -22,5 +22,4 @@ public class priemnumber {
 			System.out.println("this is a prime num"+num);
 		}
 	}
-
 }
