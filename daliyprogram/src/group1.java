@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class group1 {
 
 	public group1() {
-		// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub12
 		Scanner kj=new Scanner(System.in);
 
     	System.out.println("Please enter your roll number");
