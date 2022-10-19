@@ -10,8 +10,11 @@ public class labsecondprogram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
+		// take rollnumber from user to check which group does the number belongs
 		System.out.println("Enter your Please enter your roll number to see which group you belong to");
 		int num=sc.nextInt();
+		
+		// use condition or decision statements to find number belongs to certain group 
 		if(num%4==1)
 		{
 			System.out.println("Sapphire");
