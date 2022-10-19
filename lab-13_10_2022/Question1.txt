@@ -1,29 +1,36 @@
 /*
-  thursday_lab: Question1 
+  thursday_lab: Question 1 
 */
 
 
 import java.util.Scanner;
-
-public class labfristassignment {
+public class labsecondprogram {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    Scanner sc=new Scanner(System.in);
-		 System.out.print("Enter a number: ");  // take number form user
-		    int n=sc.nextInt();
-		 
-		    for(int i=1;i<=n;i++) {
-		      for(int j=i;j<=n-1;j++) {
-		        System.out.print(" ");
-		      }
-		      for(int j=1;j<=i;j++) {
-		        System.out.print(j);
-		      }
-		      for(int j=i-1;j>=1;j--) {
-		        System.out.print(j);
-		      }
-		      System.out.println();
-		    }
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your Please enter your roll number to see which group you belong to");
+		int num=sc.nextInt();
+		if(num%4==1)
+		{
+			System.out.println("Sapphire");
+		}
+		else if(num%4==2) {
+			System.out.println("Pearl");
+		}
+		else if(num%4==3) {
+			System.out.println("Ruby");
+		}
+		else if(num%4==0)
+		{
+			System.out.println("Emerald");
+		}
+		else 
+		{
+			System.out.println("YOU DO NOT BELONGS TO ANY GROUP");
+		}
+
 	}
+
 }
